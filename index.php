@@ -1,6 +1,6 @@
 <?php
 $content = file_get_contents("php://input");
-$token = '1793880995:AAFnG4XSKxgHHnbrmnUc9k9JxlhUm02Jkis';
+$token = '1892943113:AAEXurCn1CndT7n56RUA4Jr1Ru-opuIt4Wg';
 $apiLink = "https://api.telegram.org/bot$token/"; 
 $update = json_decode($content, true);
 if(!@$update["message"]) $val = $update['callback_query'];
